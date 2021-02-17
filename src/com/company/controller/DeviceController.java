@@ -20,7 +20,7 @@ public class DeviceController {
      * @param inputData the input data
      * @return the boolean
      */
-//@RequestMapping(value = "/login",method = RequestMethod.PUT)
+//@RequestMapping(value = "/login",method = RequestMethod.POST)
     public boolean login(String headerId, String inputData) {
         return iDeviceService.login(headerId, inputData);
     }
